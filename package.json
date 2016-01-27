@@ -1,0 +1,24 @@
+{
+  "name": "unicornsounds",
+  "version": "1.0.0",
+  "description": "An AngularJS application for users who are interested in curated playlists and recommended local concerts.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DukeGallo/UnicornSounds.git"
+  },
+  "author": "dukegallo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DukeGallo/UnicornSounds/issues"
+  },
+  "homepage": "https://github.com/DukeGallo/UnicornSounds#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "request": "^2.68.0"
+  }
+}
