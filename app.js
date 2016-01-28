@@ -2,11 +2,6 @@ var express = require('express');
 var app = express();
 var songKick = require('./api.js');
 
-(function() {
-    'use strict';
-    angular.module('formlyApp', ['formly', 'formlyBootstrap']);
-})();
-
 app.use(express.static('./'));
 app.use('/search', songKick);
 app.get('/', function(req, res) {
