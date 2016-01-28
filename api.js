@@ -24,4 +24,24 @@ request.get(options, function (error, response, body) {
   });
 });
 
+router.get('/:artistID', function(req, res) {
+  var recipeID = req.params.recipeID;
+  console.log('ID is en route!')
+  var url = "http://api.songkick.com/api/3.0/artists/" + artistid + "/calendar.json?apikey=w3AokocXm77pNg3k";
+  var options = {
+    url: url,
+    headers: {
+      'Accept': 'application/json',                     
+      'Content-Type': 'application/json'
+    }
+  };
+
+request.get(options, function (error, response, body) {
+  if (!error && res.statusCode == 200) {
+    res.send(body);
+    }
+  });
+});
+
+
 module.exports = router;

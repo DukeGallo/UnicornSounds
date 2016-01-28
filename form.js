@@ -11,3 +11,16 @@ document.getElementById('track-artist').addEventListener('click', function(e) {
   xhr.open('POST', 'http://localhost:1337/query', true);
   xhr.send(keyword);
 }, false);
+
+
+var counter = 0;
+
+$("#plus").click(function(){
+  counter++;
+  $("#count").text(counter);
+});
+
+$("#minus").click(function(){
+  counter--;    
+  $("#count").text(counter);
+});
