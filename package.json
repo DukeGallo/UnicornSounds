@@ -19,12 +19,11 @@
   "homepage": "https://github.com/DukeGallo/UnicornSounds#readme",
   "dependencies": {
     "angular": "^1.4.9",
-    "angular-formly": "^7.5.0",
-    "angular-formly-templates-bootstrap": "^6.2.0",
     "api-check": "^7.5.5",
     "body-parser": "^1.14.2",
-    "bootstrap": "^3.3.6",
     "express": "^4.13.4",
-    "request": "^2.68.0"
+    "passport": "^0.3.2",
+    "request": "^2.68.0",
+    "url-parser": "0.0.1"
   }
 }
