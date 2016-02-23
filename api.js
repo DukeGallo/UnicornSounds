@@ -31,5 +31,4 @@ request.get(options, function (error, response, body) {
   });
 });
 
-
 module.exports = router;
